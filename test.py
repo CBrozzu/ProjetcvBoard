@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-piano_cascade = cv2.CascadeClassifier('D:/Users/Alex/Downloads/dasar_haartrain/myhaar.xml')
+piano_cascade = cv2.CascadeClassifier('myhaar.xml')
 
 
 img = cv2.imread('imagesqtbnANd9GcQmFsil4cFrltjrYihdZxJ6pLLwgfLnQnlA2ynsuGAuupBIJ2.jpg')
